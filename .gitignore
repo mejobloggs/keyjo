@@ -1,0 +1,12 @@
+# Ergogen / KiCAD output
+output/
+pcb/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
