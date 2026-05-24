@@ -1,0 +1,27 @@
+{
+  "name": "keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "ergogen ergogen-keyjo-config.yaml -o output/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mejobloggs/keyjo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mejobloggs/keyjo/issues"
+  },
+  "homepage": "https://github.com/mejobloggs/keyjo#readme",
+  "devDependencies": {
+    "ergogen": "^4.2.1"
+  }
+}

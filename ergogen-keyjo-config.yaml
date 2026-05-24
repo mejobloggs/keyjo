@@ -1,27 +1,65 @@
 points:
-  zones:
-    matrix:
-      columns:
-        pinky:
-        ring:
-          key.stagger: 3
-        middle:
-          key.stagger: 5
-        index:
-          key.stagger: -5
-        inner:
-          key.stagger: -6
-        thumb:
-          key.skip: true
-          key.stagger: 10
-          rows:
-            home.skip: false
-      rows:
-        bottom:
-        home:
-        top:
-        num:
-  rotate: -10
-  mirror:
-    ref: matrix_thumb_home
-    distance: 22
+    zones:
+        matrix:
+            columns:
+                pinky: {}
+                ring:
+                    key.stagger: 3
+                middle:
+                    key.stagger: 5
+                index:
+                    key.stagger: -5
+                    key.skip: true
+                    rows:
+                        bottom:
+                            skip: false
+                        home:
+                            skip: false
+                        top:
+                            skip: false
+                inner:
+                    key.stagger: -6
+                    key.skip: true
+                    rows:
+                        bottom:
+                            skip: false
+                        home:
+                            skip: false
+                        top:
+                            skip: false
+                outer:
+                    key.stagger: -3
+                    key.skip: true
+                    rows:
+                        bottom:
+                            skip: false
+                        home:
+                            skip: false
+                        top:
+                            skip: false
+            rows:
+                top: {}
+                home: {}
+                bottom: {}
+                extra: {}
+        thumbfan:
+            anchor:
+                ref: matrix_outer_home
+                shift: [-12, 14]
+            columns:
+                t1:
+                    key.spread: 14
+                t2:
+                    key.spread: 14
+                    key.stagger: 5
+                    key.splay: 10
+                t3:
+                    key.spread: 14
+                    key.stagger: 5
+                    key.splay: 10
+            rows:
+                thumb: {}
+    rotate: -10
+    mirror:
+        ref: matrix_outer_home
+        distance: 58
