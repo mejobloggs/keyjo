@@ -17,7 +17,7 @@
   3. Report structure: modifier keys + keycodes
 
 ## Matrix Scanning
-- 6 columns x 4 rows = 21 active keys per half (42 total)
+- **TODO:** Matrix dimensions TBD after layout redesign
 - Scan pattern: drive columns LOW, read rows with pull-ups (or vice versa)
 - Debounce: software-based, ~5-10ms
 - Key mapping: physical position -> HID usage code

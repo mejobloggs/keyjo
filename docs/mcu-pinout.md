@@ -28,17 +28,5 @@
 - B22 (BOOT) and B23 (RST) have onboard buttons — avoid using for matrix
 
 ## GPIO Available for Matrix (planned)
-| Function | Pin | Notes |
-|---|---|---|
-| Row 0 (bottom) | TBD | |
-| Row 1 (home) | TBD | |
-| Row 2 (top) | TBD | |
-| Row 3 (num) | TBD | |
-| Col 0 (pinky) | TBD | |
-| Col 1 (ring) | TBD | |
-| Col 2 (middle) | TBD | |
-| Col 3 (index) | TBD | |
-| Col 4 (inner) | TBD | |
-| Col 5 (thumb) | TBD | |
 
-Total: 10 GPIO needed. CH582F has 22+ available (excluding USB pins and BOOT/RST).
+> **TODO:** Fill in after layout redesign — column/row count and pin assignments depend on final key layout.
