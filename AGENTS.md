@@ -39,6 +39,7 @@ Split unibody ergonomic keyboard using:
 | `docs/footprints.md` | Footprint design notes and KiCAD conversion reference |
 | `docs/mcu-pinout.md` | CH582F module pinout + GPIO assignments |
 | `docs/firmware-plan.md` | WCH SDK, USB HID, matrix scanning, Zig roadmap |
+| `research/RESEARCH-RESULTS.md` | Master index of Ergogen research (docs, tutorials, footprints, GUI) |
 
 
 ## Layout Structure (Left Half)
@@ -69,6 +70,16 @@ Patches applied to ergogen-gui source:
 - `src/hooks/useConfigLoader.ts` — reads `?config=` param, fetches from dev server, signals via sessionStorage
 - `src/App.tsx` — skips redirect to `/new` when `?config=` present
 - `src/pages/Welcome.tsx` — navigates to `/` when sessionStorage flag set
+
+## Research
+See `research/` directory for compiled Ergogen docs, footprint references, tutorial summaries, and project analysis:
+- `RESEARCH-RESULTS.md` — master index and quick-reference tables
+- `ergogen-docs-official.md` — full official docs compiled
+- `ceoloide-footprints.md` — 21 pre-made KiCad 8 footprints
+- `ceoloide-gui.md` — web GUI features and share links
+- `flatfootfox-tutorial-summary.md` — 5-part tutorial key lessons (caveat: never physically built)
+- `stana-keyboard-lessons.md` — physically-built unibody split reference
+- `ergogen-github-reference.md` — core repo, built-in footprints, templates
 
 ## TODO (Next Session)
 - [ ] Design key layout (points section in ergogen-keyjo-config.yaml)
